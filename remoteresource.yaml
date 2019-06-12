@@ -1,0 +1,8 @@
+apiVersion: "kapitan.razee.io/v1alpha1"
+kind: RemoteResource
+metadata:
+  name: dale-rr
+spec:
+  requests:
+    - options:
+        url: https://raw.githubusercontent.com/dalehille/razeedemo/master/configmap.yaml
