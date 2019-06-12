@@ -1,0 +1,7 @@
+
+apiVersion: v1
+data:
+  mydata: a
+kind: ConfigMap
+metadata:
+  name: sampleconfig
